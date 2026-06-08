@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aya Ben-Tchichia — Développeuse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- GRILLE DE FOND -->
+<div class="grid-deco"></div>
+
+<!-- CURSEUR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-name">
+    <span>Aya</span>
+    <span>Ben-Tchichia</span>
+  </div>
+  <div class="loader-bar-wrap">
+    <div class="loader-bar"></div>
+  </div>
+  <div class="loader-count">0%</div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">aya.dev</a>
+  <ul class="nav-links">
+    <li><a href="#about">à propos</a></li>
+    <li><a href="#skills">stack</a></li>
+    <li><a href="#projects">projets</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">me contacter</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-glow-rose"></div>
+  <div class="hero-glow-menthe"></div>
+
+  <div class="hero-eyebrow">
+    <span class="blink">●</span>
+    recherche alternance · sept. 2026
+  </div>
+
+  <h1 class="hero-headline">
+    <div class="line"><span>Aya</span></div>
+    <div class="line"><span>Ben-Tchichia</span></div>
+  </h1>
+
+  <p class="hero-sub">
+    Étudiante ingénieure à l'ESIEA · Développeuse passionnée par le web &amp; Java · Alternance 36 mois
+  </p>
+
+  <div class="hero-btns">
+    <a href="#projects" class="btn-rose">→ voir mes projets</a>
+    <a href="CV.pdf" download class="btn-ghost">↓ télécharger mon CV</a>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    scroll
+  </div>
+</header>
+
+<!-- À PROPOS -->
+<section id="about">
+  <div class="section-label reveal">// qui suis-je</div>
+  <h2 class="section-title reveal">Motivée.<br>Curieuse.<br>Prête.</h2>
+  <div class="about-grid">
+    <p class="about-text reveal-left">
+      Étudiante en <strong>2e année de Licence Informatique</strong> à l'Université d'Évry Paris-Saclay, admise en cycle ingénieur à l'<strong>ESIEA Paris</strong> en septembre 2026.
+      <br><br>
+      J'ai réalisé un stage chez <strong>Bymaro (filiale Bouygues Construction)</strong> — une expérience concrète qui m'a confirmé que j'aime construire des choses utiles et bien faites.
+      <br><br>
+      Je recherche une <strong>alternance de 36 mois</strong> en développement à partir de septembre 2026, rythme 2 semaines entreprise / 2 semaines école.
+    </p>
+    <div class="about-cards reveal-right">
+      <div class="about-card">
+        <div class="about-icon">🎓</div>
+        <div>
+          <h4>ESIEA — Cycle ingénieur</h4>
+          <p>Rentrée septembre 2026</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">🏗️</div>
+        <div>
+          <h4>Stage Bymaro / Bouygues</h4>
+          <p>Juin – Août 2025</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">📍</div>
+        <div>
+          <h4>Île-de-France</h4>
+          <p>Mobilité possible</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">💡</div>
+        <div>
+          <h4>Alternance 36 mois</h4>
+          <p>Rythme 2 sem. entreprise / 2 sem. école</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPÉTENCES -->
+<div class="skills-wrap" id="skills">
+  <div class="skills-inner">
+    <div class="section-label reveal">// stack technique</div>
+    <h2 class="section-title reveal">Ce que je maîtrise</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h4>langages</h4>
+        <div class="skill-item"><span class="skill-dot dot-rose"></span>Java</div>
+        <div class="skill-item"><span class="skill-dot dot-rose"></span>HTML / CSS</div>
+        <div class="skill-item"><span class="skill-dot dot-rose"></span>JavaScript</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>C</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>Python </div>
+      </div>
+      <div class="skill-card reveal">
+        <h4>outils &amp; méthodes</h4>
+        <div class="skill-item"><span class="skill-dot dot-rose"></span>Git / GitHub</div>
+        <div class="skill-item"><span class="skill-dot dot-rose"></span>Programmation orientée objet</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>SQL</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>UML / StarUML</div>
+      </div>
+      <div class="skill-card reveal">
+        <h4>soft skills</h4>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>Travail en équipe</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>Rigueur &amp; organisation</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>Curiosité permanente</div>
+        <div class="skill-item"><span class="skill-dot dot-menthe"></span>Français / Anglais</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJETS -->
+<section id="projects">
+  <div class="section-label reveal">// mes projets</div>
+  <h2 class="section-title reveal">Ce que j'ai construit</h2>
+  <div class="projects-grid">
+    <div class="proj-card featured reveal">
+      <div class="proj-thumb proj-thumb-rose">🛵</div>
+      <div class="proj-body">
+        <div class="proj-tags">
+          <span class="tag-rose">Java</span>
+          <span class="tag-rose">POO</span>
+          <span class="tag-menthe">Projet universitaire</span>
+        </div>
+        <div class="proj-name">LOUSCOOT</div>
+        <p class="proj-desc">Application de location de scooters en Java. Architecture orientée objet, gestion des réservations, des factures et du catalogue de véhicules.</p>
+        <a href="https://github.com/bentcaya-del/Louscoot.git" target="_blank" rel="noopener" class="proj-link">↗ voir sur GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-thumb proj-thumb-code">2048</div>
+      <div class="proj-body">
+        <div class="proj-tags">
+          <span class="tag-menthe">C</span>
+          <span class="tag-menthe">ncurses</span>
+          <span class="tag-menthe">Terminal</span>
+        </div>
+        <div class="proj-name">Jeu 2048</div>
+        <p class="proj-desc">Implémentation du jeu 2048 en C avec interface terminal via ncurses. Logique de jeu complète, gestion du score et de fin de partie.</p>
+        <a href="https://github.com/bentcaya-del/2048-ncurses.git" target="_blank" rel="noopener" class="proj-link">↗ voir sur GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-thumb proj-thumb-menthe">🌐</div>
+      <div class="proj-body">
+        <div class="proj-tags">
+          <span class="tag-rose">HTML</span>
+          <span class="tag-rose">CSS</span>
+          <span class="tag-rose">JavaScript</span>
+        </div>
+        <div class="proj-name">Ce portfolio</div>
+        <p class="proj-desc">Portfolio personnel codé à la main. Design dark girly-code, animations CSS avancées, scroll reveal, loader animé et curseur custom.</p>
+        <a href="https://github.com/bentcaya-del/Portfolio-perso.git" target="_blank" rel="noopener" class="proj-link">↗ voir sur GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="padding-bottom: 120px;">
+  <div class="contact-box reveal">
+    <h2 class="contact-title">Travaillons ensemble</h2>
+    <p class="contact-desc">
+      Disponible pour une alternance de 36 mois à partir de septembre 2026.<br>
+      Startups, éditeurs logiciels, grandes entreprises — je suis ouverte !
+    </p>
+    <div class="contact-links">
+      <a href="mailto:bentc.aya@gmail.com" class="contact-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+        </svg>
+        email
+      </a>
+      <a href="https://linkedin.com/in/aya-ben-tchichia" target="_blank" rel="noopener" class="contact-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+          <rect x="2" y="9" width="4" height="12"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+        linkedin
+      </a>
+      <a href="https://github.com/bentcaya-del" target="_blank" rel="noopener" class="contact-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        github
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  aya ben-tchichia &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; crafted with html, css &amp; js
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
