@@ -1,6 +1,6 @@
-# aya.dev — Portfolio personnel
+# Portfolio — Aya Ben-Tchichia
 
-Portfolio personnel d'Aya Ben-Tchichia, étudiante en informatique à la recherche d'une alternance de 36 mois en développement à partir de septembre 2026.
+Mon portfolio personnel, développé à la main en HTML, CSS et JavaScript.
 
 Site en ligne : https://bentcaya-del.github.io
 
@@ -14,19 +14,19 @@ Site one-page codé entièrement à la main (sans framework), avec :
 - Navigation avec lien actif synchronisé au scroll
 - Mise en page responsive
 
-### Sections
+## Contenu
 
-- Hero — présentation rapide + statut de recherche d'alternance
-- À propos — parcours (Université d'Évry Paris-Saclay → ESIEA), stage chez Bymaro/Bouygues
-- Stack technique — langages, outils & méthodes, soft skills
-- Projets — sélection de projets avec liens vers les dépôts GitHub
-- Contact — email, LinkedIn, GitHub
+- Présentation et recherche d'alternance
+- Stack technique
+- Projets réalisés
+- Contact
 
 ## Stack technique
 
-- HTML5 / CSS3 (animations, variables CSS, design responsive)
-- JavaScript vanilla (Intersection Observer pour le scroll reveal, animation du curseur, smooth scroll)
+- HTML, CSS, JavaScript (pur, sans framework)
+- Animations CSS, scroll reveal, loader animé, curseur custom
 - Polices Google Fonts : Syne, Space Mono, DM Sans
+- Déployé via GitHub Pages
 
 ## Structure
 
@@ -40,10 +40,14 @@ Site one-page codé entièrement à la main (sans framework), avec :
 
 ## Lancer en local
 
-Aucune dépendance ni build nécessaire : ouvrir directement `index.html` dans un navigateur, ou servir le dossier avec un petit serveur local :
-
 ```bash
+git clone https://github.com/bentcaya-del/bentcaya-del.github.io.git
+cd bentcaya-del.github.io
 npx serve .
 ```
 
-Le site est déployé automatiquement via GitHub Pages.
+Ou ouvre directement `index.html` dans ton navigateur.
+
+## Auteur
+
+**Ben-tchichia Aya** — Étudiante ingénieure ESIEA · En recherche d'alternance 36 mois
